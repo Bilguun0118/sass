@@ -1,0 +1,58 @@
+$primary-color : white;
+$main-color: blue;
+
+@mixin theme($color: white, $width : 100px, $height : 50px, $backColor: none) {
+    color: $color;
+    height: $height;
+    width: $width;
+    background-color: $backColor;
+    margin-top: 1px;
+}
+
+@mixin border($borderColor: $primary-color) {
+    border: 1px solid $borderColor;
+}
+
+
+%primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    height: 50px;
+    width: 100px;
+    color: $primary-color;
+    background-color: none;
+    border: none;
+    margin: 50px 0;
+}
+
+.containers {
+    .btn:nth-child(1) {
+        @extend %primary;
+        background-color: $main-color;
+    }
+
+    .btn:nth-child(2) {
+        @extend %primary;
+        width: 120px;
+        color: $main-color;
+        border: 1px solid $main-color;
+    }
+
+    .btn:nth-child(3) {
+        @extend %primary;
+        background-color: grey;
+    }
+
+    .btn:nth-child(4) {
+        @extend %primary;
+        background-color: green;
+    }
+
+    .btn:last-child {
+        @extend %primary;
+        width: 80px;
+        background-color: orange;
+    }
+}

@@ -1,0 +1,171 @@
+$colors: (
+  title: #ffffff,
+  h3Title: #0a153a,
+  line: #97fce9,
+  text: #9c9b9c,
+  back-ground: #1f253f,
+);
+%backgroundSize {
+    background-color: map-get($colors, title );
+    width: 250px;
+    height: 50px;
+    box-shadow: 3px 3px map-get($colors, back-ground ), 5px 5px map-get($colors, line);
+}
+%size1{
+    margin: 10px;
+}
+%font {
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+  height: 1027px;
+  width: 728px;
+  background-color: map-get($colors, back-ground);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: map-get($colors, h3Title );
+  .lift{
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    .titleS:nth-child(1){
+        color: map-get($colors, title );
+        @extend %font;
+        @extend %size1;
+        padding-bottom: 10px;
+    }
+    .social:nth-child(2){
+        @extend %backgroundSize;
+        @extend %size1;
+        .titleS:nth-child(1){
+            color: map-get($colors, h3Title);
+            font-size: 18px;
+            font-weight: 900;
+        }
+    }
+    .about:nth-child(3){
+        @extend %size1;
+        @extend %backgroundSize;
+        height: 550px;
+        margin-top: 20px;
+
+        .titleS:nth-child(1){
+            @extend %size1;
+            color: map-get($colors, h3Title );
+            height: 30px;
+            border-bottom: 5px solid map-get($colors, line);
+        }
+        .text:nth-child(2){
+            @extend %size1;
+            @extend %font;
+            color: map-get($colors, text);
+            font-weight: 400;
+            font-size: small;
+            margin: 0 10px;
+            
+        }
+        .humans:nth-child(3){
+            @extend %size1;
+            .human{
+                .name{
+                    @extend %font;
+                    font-weight: 200;
+                    font-size: small;
+                    h4:nth-child(1){
+                        color: map-get($colors, h3Title );
+                    }
+                    p:nth-child(2){
+                        color: map-get($colors, text );
+                    }
+                }
+            }
+        }
+        .titleS:nth-child(4){
+            @extend %font;
+            @extend %size1;
+        }
+        .texts:nth-child(5){
+            @extend %font;
+            @extend %size1;
+            font-size: small;
+            font-weight: 400;
+            color: map-get($colors, text );
+        }
+        .texts:nth-child(6){
+            @extend %font;
+            @extend %size1;
+            font-size: small;
+            font-weight: 400;
+            color: map-get($colors, text );
+        }
+        .texts:nth-child(7){
+            @extend %font;
+            @extend %size1;
+            font-size: small;
+            font-weight: 400;
+            color: map-get($colors, text );
+        }
+    }
+    .money:nth-child(4){
+        @extend %size1;
+        @extend %backgroundSize;
+        height: 30px;
+        .titleS:nth-child(1){
+            @extend %font;
+            color: map-get($colors, h3Title);
+            font-size: 900;
+        };
+    }
+    .contact:nth-child(5){
+        @extend %size1;
+        @extend %backgroundSize;
+        height: 40px;
+        .titleS:nth-child(2){
+            @extend %size1;
+            @extend %font;
+            font-size: larger;
+        };
+    }
+  }
+  .right{
+    width: 60%;
+    .line:nth-child(1){
+        width: 100px;
+        border-bottom: 7px solid map-get($colors, line );
+        @extend %size1;
+    }
+    .whatWe:nth-child(2){
+        @extend %backgroundSize;
+        @extend %font;
+        @extend %size1;
+        height: 35px;
+    }
+    .classification:nth-child(3){
+        @extend %backgroundSize;
+        @extend %font;
+        @extend %size1;
+        height: 400px;
+        width: 350px;
+    }
+    .outPartners:nth-child(4){
+        @extend %backgroundSize;
+        @extend %font;
+        @extend %size1;
+        height: 35px;
+        width: 350px;
+    }
+    .classification:nth-child(5){
+        @extend %backgroundSize;
+        @extend %font;
+        @extend %size1;
+        height: 250px;
+        width: 350px;
+    }
+  }
+}

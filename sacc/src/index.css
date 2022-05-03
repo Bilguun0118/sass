@@ -1,7 +1,13 @@
-.containers .btn:last-child, .containers .btn:nth-child(4), .containers .btn:nth-child(3), .containers .btn:nth-child(2), .containers .btn:nth-child(1) {
+.containers .btn:nth-child(1), .containers .btn:nth-child(2), .containers .btn:nth-child(3), .containers .btn:nth-child(4), .containers .btn:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 1px;
   height: 50px;
   width: 100px;
@@ -14,20 +20,23 @@
 .containers .btn:nth-child(1) {
   background-color: blue;
 }
+
 .containers .btn:nth-child(2) {
   width: 120px;
   color: blue;
   border: 1px solid blue;
 }
+
 .containers .btn:nth-child(3) {
   background-color: grey;
 }
+
 .containers .btn:nth-child(4) {
   background-color: green;
 }
+
 .containers .btn:last-child {
   width: 80px;
   background-color: orange;
 }
-
 /*# sourceMappingURL=index.css.map */

@@ -1,19 +1,26 @@
-import './index.css';
+import "./index.css";
+import { analyticsImg } from "./img";
+// import img from './assets/analytics.svg';
 
 function App() {
+  // console.log(analyticsImg);
   return (
     <div className="container">
       <div className="lift">
-        <h3 className= "titleS">nest agency</h3>
+        <h3 className="titleS">nest agency</h3>
         <div className="social">
-          <h3 className= "titleS">SOCTIOL MEDIA ACTIVATION</h3>
+          <h3 className="titleS">SOCTIOL MEDIA ACTIVATION</h3>
         </div>
         <div className="about">
-          <h3 className= "titleS">ABOUT US</h3>
-          <p className = "text">We are a team of 3 young professionals who are passionate about hwat we do.</p>
+          <h3 className="titleS">ABOUT US</h3>
+          <p className="text">
+            We are a team of 3 young professionals who are passionate about hwat
+            we do.
+          </p>
           <div className="humans">
             <div className="human">
-              <img src="" alt="img" />
+              <img src={analyticsImg} alt="img" />
+              {/* <img src={img} alt="img" /> */}
               <div className="name">
                 <h4>Elizabeth Kelley</h4>
                 <p>Brand Developer, Social Marketer</p>
@@ -34,17 +41,28 @@ function App() {
               </div>
             </div>
           </div>
-          <h3 className= "titleS">WHY CHOOSE US?</h3>
-          <p className = "texts">Our team specializes in social activation and web designing, offering a high quality service in accordance with modern trends and technology.</p>
-          <p className = "texts">Our team is a small group of dynamic  and skilled professional, which allows us a freedom to improvise and offer our clients a fresh perspective, therefor our clients are always one step ahead with us.</p>
-          <p className = "texts">We thoroughly research for the projects we take on tith new approach in marketing , desing and techonogy for every client.</p>
+          <h3 className="titleS">WHY CHOOSE US?</h3>
+          <p className="texts">
+            Our team specializes in social activation and web designing,
+            offering a high quality service in accordance with modern trends and
+            technology.
+          </p>
+          <p className="texts">
+            Our team is a small group of dynamic and skilled professional, which
+            allows us a freedom to improvise and offer our clients a fresh
+            perspective, therefor our clients are always one step ahead with us.
+          </p>
+          <p className="texts">
+            We thoroughly research for the projects we take on tith new approach
+            in marketing , desing and techonogy for every client.
+          </p>
         </div>
         <div className="money">
-          <h3 className= "titleS">$8.888.888</h3>
+          <h3 className="titleS">$8.888.888</h3>
         </div>
         <div className="contact">
           <img src="" alt="img" />
-          <h4 className= "titleS">9898-8888 / 8989-8888</h4>
+          <h4 className="titleS">9898-8888 / 8989-8888</h4>
         </div>
       </div>
       <div className="right">

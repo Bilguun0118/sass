@@ -5,6 +5,7 @@ $colors: (
   text: #9c9b9c,
   back-ground: #1f253f,
 );
+
 %backgroundSize {
     background-color: map-get($colors, title );
     width: 250px;
@@ -32,7 +33,7 @@ $colors: (
   color: map-get($colors, h3Title );
   .lift{
     width: 40%;
-    margin: 0;
+    margin: 0 20px;
     padding: 0;
     .titleS:nth-child(1){
         color: map-get($colors, title );

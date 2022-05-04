@@ -1,0 +1,30 @@
+// const analyticsImg = require("./assets/analytics.svg");
+import analyticsImg from "./assets/analytics.svg";
+import anarerdene from "./assets/anarerdene.png";
+
+export { analyticsImg, anarerdene };
+
+// import AnalyticsImg from "./assets/analytics.svg";
+// export * as Article from "./assets/article.svg";
+// export * as Baabar from "./assets/baabar.png";
+// export * as Boost from "./assets/boost.svg";
+// export * as Bot from "./assets/bot.svg";
+// export * as Consulting from "./assets/consulting.svg";
+// export * as contest from "./assets/contest.svg";
+// export * as gereg from "./assets/gereg.png";
+// export * as gif from "./assets/gif.svg";
+// export * as group from "./assets/group.svg";
+// export * as gyalbaa from "./assets/gyalbaa.png";
+// export * as infographic from "./assets/infographic.svg";
+// export * as lhamour from "./assets/lhamour.png";
+// export * as like from "./assets/like.svg";
+// export * as live from "./assets/live.svg";
+// export * as photo from "./assets/photo.svg";
+// export * as podcast from "./assets/podcast.svg";
+// export * as poster from "./assets/poster.svg";
+// export * as reach from "./assets/reach.svg";
+// export * as sparkemplify from "./assets/sparkamplify.png";
+// export * as startupmongolia from "./assets/startupmongolia.png";
+// export * as ublife from "./assets/ublife.png";
+// export * as video from "./assets/video.svg";
+// export * as zgm from "./assets/zgm.png";

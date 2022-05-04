@@ -8,6 +8,7 @@ function App() {
       <button className='btn'>Disabled</button>
       <button className='btn'>Success</button>
       <button className='btn'>Delete</button>
+      <button variant = "contained">MUI</button>
     </div>
   );
 }

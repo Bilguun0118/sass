@@ -1,6 +1,32 @@
 import "./index.css";
-import { analyticsImg } from "./img";
-// import img from './assets/analytics.svg';
+import IMG from "./img";
+import {
+  AnalyticsImg,
+  Anarerdene,
+  Article,
+  Baabar,
+  Boost,
+  Bot,
+  Consulting,
+  contest,
+  gereg,
+  gif,
+  group,
+  gyalbaa,
+  infographic,
+  lhamour,
+  like,
+  live,
+  photo,
+  podcast,
+  poster,
+  reach,
+  sparkemplify,
+  startupmongolia,
+  ublife,
+  video,
+  zgm,
+} from "./img";
 
 function App() {
   // console.log(analyticsImg);
@@ -19,15 +45,14 @@ function App() {
           </p>
           <div className="humans">
             <div className="human">
-              <img src={analyticsImg} alt="img" />
-              {/* <img src={img} alt="img" /> */}
+              <img src={IMG} alt="img" />
               <div className="name">
                 <h4>Elizabeth Kelley</h4>
                 <p>Brand Developer, Social Marketer</p>
               </div>
             </div>
             <div className="human">
-              <img src="" alt="img" />
+              <img src={Article} alt="img" />
               <div className="name">
                 <h4>Sophia Christensen</h4>
                 <p>Content Developer, Project Manager</p>
@@ -72,67 +97,67 @@ function App() {
         </div>
         <div className="classification">
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={Boost} className="logo" alt="icon" />
             <h5>Content Boost</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={live} className="logo" alt="icon" />
             <h5>Facebook Live</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={contest} className="logo" alt="icon" />
             <h5>Facebook Contests</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={group} className="logo" alt="icon" />
             <h5>Group Development</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={Consulting} className="logo" alt="icon" />
             <h5>Marketing Consulting</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={photo} className="logo" alt="icon" />
             <h5>Photo Shoot</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={Article} className="logo" alt="icon" />
             <h5>Magazine Articles</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={live} className="logo" alt="icon" />
             <h5>+Like Growth</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={poster} className="logo" alt="icon" />
             <h5>+Post Reach</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={podcast} className="logo" alt="icon" />
             <h5>Podcast</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={Bot} className="logo" alt="icon" />
             <h5>Messenger Bot</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={AnalyticsImg} className="logo" alt="icon" />
             <h5>Analytics</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={gif} className="logo" alt="icon" />
             <h5>GIF Post</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={video} className="logo" alt="icon" />
             <h5>Animated Video</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={infographic} className="logo" alt="icon" />
             <h5>Infographics</h5>
           </div>
           <div className="group">
-            <img src="" alt="icon" />
+            <img src={poster} className="logo" alt="icon" />
             <h5>Posters</h5>
           </div>
         </div>
@@ -140,7 +165,10 @@ function App() {
           <h3>OUT PARTNERS & CLIENTS</h3>
         </div>
         <div className="classification">
-          {/* <img src="anarerdene" alt="" /> */}
+          <div className="group">
+            <img src={zgm} className="classLogo" alt="icon" />
+            <h5>Posters</h5>
+          </div>
         </div>
       </div>
     </div>
